@@ -23,7 +23,7 @@ Cette API permet de :
 
 ## 🧪 Collection Postman
 
-📥 [Télécharger FootballAPI Collection (JSON)](postman/FootballAPI_Full_Coverage.postman_collection.json)
+📥 [Télécharger FootballAPI Collection (JSON)](postman/FootballAPI.postman_collection.json)
 
 ---
 
