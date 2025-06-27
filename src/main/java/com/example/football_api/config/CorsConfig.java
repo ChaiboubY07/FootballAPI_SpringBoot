@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-            .allowedOrigins("*") // ou spécifie l’URL du Swagger si tu veux le restreindre
+            .allowedOrigins("https://football-api-mxbx.onrender.com") // ou spécifie l’URL du Swagger si tu veux le restreindre
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*");
     }
