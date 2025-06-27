@@ -14,13 +14,16 @@ import org.springframework.context.annotation.Configuration;
         version = "1.0",
         description = "API REST pour gérer des matchs, joueurs, équipes et compétitions de football",
         contact = @Contact(
-            name = "Ton Nom",
-            email = "ton.email@example.com"
+            name = "CHAIBOUB Youssef",
+            email = "ch.youssef.contact@gmail.com"
         )
     ),
-    servers = @Server(url = "http://localhost:8080"),
+    servers = {
+        @Server(url = "https://football-api-mxbx.onrender.com", description = "Render (prod)")
+    },
     security = @SecurityRequirement(name = "bearerAuth")
 )
+
 @SecurityScheme(
     name = "bearerAuth",
     type = SecuritySchemeType.HTTP,
